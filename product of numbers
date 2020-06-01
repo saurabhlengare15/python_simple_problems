@@ -1,0 +1,11 @@
+def numbers(n1,n2):
+    product=n1*n2
+    if(product<1000):
+        print (product)
+    else:
+        print (n1+n2)
+    
+n1 = int(input("Enter no1: "))
+n2 = int(input("Enter no2: "))
+
+numbers(n1,n2)
